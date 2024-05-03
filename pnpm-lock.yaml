@@ -20,6 +20,9 @@ dependencies:
   astro:
     specifier: ^4.7.1
     version: 4.7.1(typescript@5.4.5)
+  micromatch:
+    specifier: ^4.0.5
+    version: 4.0.5
   tailwindcss:
     specifier: ^3.4.3
     version: 3.4.3
@@ -29,6 +32,11 @@ dependencies:
   vue:
     specifier: ^3.4.26
     version: 3.4.26(typescript@5.4.5)
+
+devDependencies:
+  '@types/micromatch':
+    specifier: ^4.0.7
+    version: 4.0.7
 
 packages:
 
@@ -1197,6 +1205,10 @@ packages:
       '@babel/types': 7.24.5
     dev: false
 
+  /@types/braces@3.0.4:
+    resolution: {integrity: sha512-0WR3b8eaISjEW7RpZnclONaLFDf7buaowRHdqLp4vLj54AsSAYWfh3DRbfiYJY9XDxMgx1B4sE1Afw2PGpuHOA==}
+    dev: true
+
   /@types/cookie@0.6.0:
     resolution: {integrity: sha512-4Kh9a6B2bQciAhf7FSuMRRkUWecJgJu9nPnx3yzpsfXX/c50REIqpHY4C82bXP90qrLtXtkDxTZosYO3UpOwlA==}
     dev: false
@@ -1222,6 +1234,12 @@ packages:
     dependencies:
       '@types/unist': 3.0.2
     dev: false
+
+  /@types/micromatch@4.0.7:
+    resolution: {integrity: sha512-C/FMQ8HJAZhTsDpl4wDKZdMeeW5USjgzOczUwTGbRc1ZopPgOhIEnxY2ZgUrsuyy4DwK1JVOJZKFakv3TbCKiA==}
+    dependencies:
+      '@types/braces': 3.0.4
+    dev: true
 
   /@types/ms@0.7.34:
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
