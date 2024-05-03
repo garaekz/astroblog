@@ -12,6 +12,7 @@
   "dependencies": {
     "@astrojs/check": "^0.5.10",
     "@astrojs/vue": "^4.1.0",
+    "@supabase/supabase-js": "^2.43.1",
     "astro": "^4.7.1",
     "typescript": "^5.4.5",
     "vue": "^3.4.26"
