@@ -1,0 +1,13 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Navigation from "@components/dashboard/Navigation.vue";
+
+const { user } = Astro.locals;
+---
+
+<Layout title="Home">
+  <div class="antialiased bg-gray-50 dark:bg-slate-950">
+    <Navigation user={user} client:load />
+    <main class="p-4 md:ml-64 h-auto min-h-screen pt-20"></main>
+  </div>
+</Layout>
