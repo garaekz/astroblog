@@ -11,6 +11,6 @@ interface ImportMeta {
 
 declare namespace App {
   interface Locals {
-    email: String;
+    user: any;
   }
 }

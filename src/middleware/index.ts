@@ -31,7 +31,7 @@ export const onRequest = defineMiddleware(
         return redirect("/login");
       }
 
-      locals.email = data.user?.email!;
+      locals.user = data.user!;
       cookies.set("sb-access-token", data?.session?.access_token!, {
         sameSite: "strict",
         path: "/",
