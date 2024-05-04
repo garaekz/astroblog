@@ -16,6 +16,7 @@
     "@supabase/supabase-js": "^2.43.1",
     "astro": "^4.7.1",
     "micromatch": "^4.0.5",
+    "pinia": "^2.1.7",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.4.5",
     "vue": "^3.4.26"
